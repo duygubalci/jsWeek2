@@ -5,7 +5,7 @@ function findPrimeNumber(...numbers){
         let isPrime = true;
 
         if(numbers[index] < 0){
-            console.log("${numbers[index]} Pozitif bir sayı değildir..")
+            console.log(numbers[index] +": Pozitif bir sayı değildir..")
             continue;
         }
 
@@ -23,4 +23,4 @@ function findPrimeNumber(...numbers){
         }
     }
 }
-findPrimeNumber(12,14,89)
+findPrimeNumber(-5,12,14,89,-9)
